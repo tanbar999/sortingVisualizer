@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/csshake/1.5.3/csshake.min.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Visualize Algorithm</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light">
+      <a class="navbar-brand">Visualize Algorithm.</a>
+      <div id = "slct-algo" class = "btn-group mr-5 btn-group-toggle">
+        <button id = "btnSelectionSort" type="button" class="btn btn-outline-dark"><b>Selection Sort</b></button>
+        <button id = "btnBubbleSort" type="button" class="btn btn-outline-dark"><b>Bubble Sort</b></button>
+        <button id = "btnInsertionSort" type="button" class="btn btn-outline-dark"><b>Insertion Sort</b></button>
+        <button id = "btnShellSort" type="button" class="btn btn-outline-dark"><b>Shell Sort</b></button>
+        <button id = "btnOddEvenSort" type="button" class="btn btn-outline-dark"><b>Odd Even Sort</b></button>
+        <button id = "btnCombSort" type="button" class="btn btn-outline-dark"><b>Comb Sort</b></button>
+        <button id = "btnCycleSort" type="button" class="btn btn-outline-dark"><b>Cycle Sort</b></button>
+        </div>
+      <div>
+        <button id="btn-generate" class="btn btn-danger ml-5"><b>RESET</b></button>
+      </div>
+    </nav>
+    <div class = "col-md-12 mt-3" >
+      <div class="card">
+        <div class="card-body" >
+          <button id="btn-Sort" class="btn btn-success btn-block"><b>VISUALISE</b></button>
+        </div>
+        <div class="card-body" id="card-body-sketch">
+          <!-- HERE IS THE SELECTION SO FROM p5.js -->
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="sketch.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>
+</html>

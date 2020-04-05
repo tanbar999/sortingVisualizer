@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  background-color: #e3f2fd;
+}
+
+.navbar{
+    background-color: #e3f2fd;
+}
+
+.card{
+    background-color: #e3f2fd;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Pacifico' ,  cursive;
+}
